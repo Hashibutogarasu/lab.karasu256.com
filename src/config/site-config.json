@@ -10,7 +10,6 @@
       "description": "MCMidi is a Minecraft mod that allows you to play MIDI files in Minecraft.",
       "slug": "MCMidi",
       "platform": "Modrinth",
-      "url": "/",
       "versions": ["1.21.1"]
     }
   ]
