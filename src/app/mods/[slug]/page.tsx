@@ -20,8 +20,7 @@ export default function Page() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.1 }}
-        className="bg-accent text-accent-foreground p-2 rounded"
-      >
+        className="bg-accent text-accent-foreground p-2 rounded">
         {
           item ? (
             <div className="bg-card text-card-foreground p-6 rounded-lg shadow-lg max-w-md mx-auto">
