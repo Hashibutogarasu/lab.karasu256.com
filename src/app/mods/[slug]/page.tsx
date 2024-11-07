@@ -2,10 +2,11 @@
 
 import MCVersion from '@/componetns/ui/minecraft-version-badge';
 import content from '@/config/site-config.json';
-import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion'
 import { AppPrimaryButton } from '@/componetns/ui/app-button';
+import Image from 'next/image';
+import { PrimaryLinkButton } from '@/componetns/ui/link-buttons';
 
 export default function Page() {
   const params = useParams();
@@ -27,12 +28,16 @@ export default function Page() {
               <h2 className="text-xl font-semibold mb-4">{item?.slug}</h2>
               <div className="flex justify-between items-center">
                 <span>{item?.description}</span>
-                <MCVersion versions={item?.versions} icon={item?.icon} />
+                <Image width={32} height={32} src={`${item.icon}`} alt="Minecraft Version Icon" />
               </div>
+              <div className="text-sm font-semibold mt-4">
+                Available for:
+              </div>
+              <MCVersion versions={item?.versions} />
               <AppPrimaryButton>
-                <Link href={item?.link} className="text-accent-foreground" target="_blank">
+                <PrimaryLinkButton href={item.link}>
                   Download
-                </Link>
+                </PrimaryLinkButton>
               </AppPrimaryButton>
             </div>
           )

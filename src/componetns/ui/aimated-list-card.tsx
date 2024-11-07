@@ -23,7 +23,7 @@ export const AnimatedListCard = () => {
             transition={{ duration: 0.3, delay: index * 0.1 }}
             className="bg-accent text-accent-foreground p-2 rounded"
           >
-            <Link href={`/content/${item}`}>
+            <Link href={`/mods/${item}`}>
               <div className="flex justify-between items-center">
                 <span>{item}</span>
                 <motion.span

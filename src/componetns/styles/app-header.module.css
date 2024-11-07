@@ -1,0 +1,39 @@
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.appHeader > h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.appHeader > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.appHeader > div > button {
+  margin-left: 10px;
+}
+
+.appHeader > .appTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.appHeader > .headerSpacer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.appHeader > .headerChild {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
