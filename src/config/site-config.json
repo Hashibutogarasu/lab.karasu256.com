@@ -1,0 +1,17 @@
+{
+  "title": "Karasu lab for Minecraft mods",
+  "description": "Minecraft mods developed by Hashibutogarasu",
+  "author": "Hashibutogarasu",
+  "twitter": "https://x.com/Columba_Karasu",
+  "contents": [
+    {
+      "link": "https://modrinth.com/mod/mcmidi",
+      "icon": "https://cdn.modrinth.com/data/DQXk55XI/868966f9936264ed85305a9eb7e5dc582688051b.png",
+      "description": "MCMidi is a Minecraft mod that allows you to play MIDI files in Minecraft.",
+      "slug": "MCMidi",
+      "platform": "Modrinth",
+      "url": "/",
+      "versions": ["1.21.1"]
+    }
+  ]
+}

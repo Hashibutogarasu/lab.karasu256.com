@@ -1,0 +1,53 @@
+.primaryButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primaryButton:hover {
+  background-color: #0056b3;
+}
+
+.primaryButton:active {
+  background-color: #0056b3;
+}
+
+.primaryButton:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.primaryButton:focus {
+  outline: none;
+}
+
+.secondaryButton {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.secondaryButton:hover {
+  background-color: #5a6268;
+}
+
+.secondaryButton:active {
+  background-color: #5a6268;
+}
+
+.secondaryButton:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.secondaryButton:focus {
+  outline: none;
+}
