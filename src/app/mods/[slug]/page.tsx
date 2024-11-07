@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div>
       <motion.li
-        key={item?.url}
+        key={item?.link}
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.1 }}
